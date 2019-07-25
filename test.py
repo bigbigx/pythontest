@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
-
-print ('Hello bigx')
-print ('Hello bigx X 2')
+print("multiplication Table")
+for i in range(1,10):
+    for j in range(1,i+1):
+        print(j,"*",i,"=",i*j,"\t",end='')
+    print(" ")
