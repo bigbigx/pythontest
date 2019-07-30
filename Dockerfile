@@ -6,4 +6,3 @@ CMD python3 pythontest/django-webssh-master/webssh/manage.py runserver 0.0.0.0:8
 
 EXPOSE 8123
 
-docker build -t webssh:v1.0 .
