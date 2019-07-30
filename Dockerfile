@@ -1,4 +1,4 @@
-from ubuntu_django  >> Dockerfile
+from ubuntu_django  
 
 COPY django-webssh-master  /root/pythontest/ 
 WORKDIR /root
